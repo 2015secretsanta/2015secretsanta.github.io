@@ -1,0 +1,55 @@
+body {
+	background: #343339;
+	text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 200;
+	display: relative;
+	background-image: url("../img/bg.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.title {
+	display: block;
+	margin: 150px auto 0 auto;
+	width: 580px;
+	height: 215px;
+}
+
+.text-container {
+	width: 500px;
+	margin: 50px auto;
+}
+
+.text {
+	font-size: 25px;
+	color: white;
+	line-height: 43px;
+}
+
+.note {
+	margin-top: 100px; 
+	color: #cacaca;
+	font-size: 12px;
+	line-height: 28px;
+	z-index: 5;
+}
+
+.redacted {
+	background: #cacaca;
+}
+
+@media only screen and ( max-width: 800px ) {
+	body {
+		background-image: none;
+	}
+}
+
+@media only screen and ( max-height: 800px ){
+    body {
+		background-image: none;
+	}
+}
